@@ -1,6 +1,11 @@
 Online Python Class:
 Date: 03.01.26
 
-Telegram channel : https://t.me/day_py
+Telegram channel: https://t.me/day_py
+Instagram Page: https://www.instagram.com/fastalgopy/
 
-Ders001: 03.01.26
+
+Dersler  |   Tarih
+-----------------
+Ders001  | 03.01.26
+-----------------
