@@ -1,18 +1,27 @@
-Online Python Class:
-Created Date: 03.01.26
+# 🐍 Online Python Class
 
-Telegram channel: https://t.me/day_py
+📅 **Created Date:** 03.01.26
 
-Instagram Page: https://www.instagram.com/fastalgopy/
+---
 
+## 🔗 Sosyal Kanallar
 
+- 📢 **Telegram Channel:** https://t.me/day_py
+- 📸 **Instagram Page:** https://www.instagram.com/fastalgopy/
 
+---
 
+## 📚 Dersler | Tarih
 
-Dersler  |   Tarih
------------------
+| Ders No | Tarih    |
+| ------: | -------- |
+| Ders001 | 03.01.26 |
+| Ders002 | 07.01.26 |
+| Ders003 | 10.01.26 |
 
-Ders001  | 03.01.26
------------------
-Ders002  | 07.01.26
------------------
+---
+
+## 🎯 Amaç
+
+Bu repo, online Python derslerinde işlenen konuları, örnek kodları ve ödevleri
+düzenli ve erişilebilir bir şekilde paylaşmak amacıyla oluşturulmuştur.
