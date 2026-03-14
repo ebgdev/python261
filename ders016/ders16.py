@@ -82,7 +82,15 @@ my_list = [[1,2,3],['berke','yusuf','aynaz','erfan'],[19,20,21,22,23]]
 
 # enumerate1:
 
+# for _,outter_list in enumerate(my_list):
+#     for _,item in enumerate(outter_list):
+#         print(item)
+
 
 
 # ------------
 # enumerate2:
+
+# for outter_index , outter_list in enumerate(my_list): # 0,1,2
+#     for inner_index, _ in enumerate(outter_list): # 0,1,2,3,4
+#         print(my_list[outter_index][inner_index])
