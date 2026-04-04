@@ -23,8 +23,8 @@ def fiyat_sirala_azalan(urunler):
 print(fiyat_sirala_azalan(urunler))
 
 
-# def artan_sira(urunler):
-#     result = sorted(urunler.items(),key=(lambda x: x[1]),reverse=False)
-#     return result
+def artan_sira(urunler):
+    result = sorted(urunler.items(),key=(lambda x: x[1]),reverse=False)
+    return result
 
-# print(artan_sira(urunler))
+print(artan_sira(urunler))
