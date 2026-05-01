@@ -118,12 +118,12 @@ musteriler = {
 # -----------------------------------------
 
 
-def find_names_len(upper_limit,d):
-    # upper limitin alitindaki uzunlukta olan musterileri istiyoruz
-    result = []
+# def find_names_len(upper_limit,d):
+#     # upper limitin alitindaki uzunlukta olan musterileri istiyoruz
+#     result = []
 
 
-print(find_names_len(5,musteriler))
+# print(find_names_len(5,musteriler))
 
 
 
@@ -173,4 +173,31 @@ data = [
 
 # ODEV
 class Car:
-    pass
+    def __init__(self,manufactor,model,engine,door,wheel,vtype):
+        self.manufactor = manufactor
+        self.model = model
+        self.engine = engine
+        self.door = door
+        self.wheel= wheel
+        self.vtype = vtype
+
+    @classmethod
+    def get_with_str(cls,astr):
+        manufactor,model,engine,door,wheel,vtype = astr.split(',')
+        return cls(manufactor,model,engine,door,wheel,vtype)
+    
+    def print_info(self):
+        pass
+
+
+
+car = Car('cadillac','esclade','6.0',5,4,'truck')
+result = {}
+
+for i in range(len(data)):
+    result[f'car{i+1}'] = Car.get_with_str(data[i])
+
+
+print(result['car1'].model)
+# print(result['car1'].print_info())
+print(result['car12'].model)
