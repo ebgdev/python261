@@ -97,15 +97,19 @@ class Toy:
         self.color = color
         self.speakable = speakable
 
+    # dunder method, instance method
     def __str__(self):
         return f'{self.name} -- {self.color}'
-
     
+    # def __repr__(self):
+    #     return f'{self.name=} -- {self.color=} -- {self.speakable=}'
+
 
 toy1 = Toy('McQueen','red',True)
 toy2 = Toy('captin america','white/blue','True')
 # print(dir(toy1))
-print(toy1)
+print('1 ',toy1)
+print('2 ',toy1.__str__())
 print(id(toy1))
 print(id(toy2))
 
