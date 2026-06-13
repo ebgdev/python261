@@ -1,0 +1,11 @@
+id,first_name,last_name,age,is_married,balance
+1,berat,demircan,25,0,10000
+2,faruk,sercan,30,1,1000
+3,omer,guven,40,1,12
+4,ahsen,altunzade,12,0,500
+5,leyla,sadi,18,0,14
+6,onur,evren,60,1,300
+7,sadik,demirci,70,1,5000
+8,yasemin,demirtas,10,0,-100
+9,sefika,semerci,16,0,34000
+10,ilknur,balkan,48,1,0
