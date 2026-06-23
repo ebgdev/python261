@@ -1,0 +1,6 @@
+id,name,score
+1,berke,70
+2,yusuf,80
+6,sadik,49
+8,kemal,70
+10,nadir,78

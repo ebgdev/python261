@@ -1,0 +1,11 @@
+id,name,score
+1,berke,70
+2,yusuf,80
+3,faruk,10
+4,emirhan,0
+5,naz,28
+6,sadik,49
+7,omer,35
+8,kemal,70
+9,yasemin,10
+10,nadir,78
